@@ -1,0 +1,14 @@
+# keep docs & markdown out of the build context
+*.md
+Dockerfile Explanation/
+docs/
+README.md
+
+# common noise
+.git
+.gitignore
+node_modules
+target
+.idea
+.vscode
+.DS_Store
